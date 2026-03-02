@@ -75,6 +75,30 @@ h6 {
   --white: hsl(0 0% 100%);
 }
 
+@font-face {
+  font-family: "Poppins Extra Light";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(./fonts/Poppins-ExtraLight-subset.woff2) format(woff2);
+}
+
+@font-face {
+  font-family: "Poppins Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(./fonts/Poppins-Regular-subset.woff2) format(woff2);
+}
+
+@font-face {
+  font-family: "Poppins Semibold";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(./fonts/Poppins-SemiBold-subset.woff2) format(woff2);
+}
+
 /* FOOTER */
 .attribution {
   font-size: 11px;
