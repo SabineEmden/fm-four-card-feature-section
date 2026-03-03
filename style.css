@@ -99,6 +99,23 @@ h6 {
   src: url(./fonts/Poppins-SemiBold-subset.woff2) format(woff2);
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins Regular", sans-serif;
+  font-size: 0.9375rem; /* 0.9375rem => 0.9375 * 16px = 15px */
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--grey500);
+  background-color: hsl(240, 19%, 95%);
+  min-height: 100dvh;
+}
+
+main {
+  flex-grow: 1;
+  padding: 40px 32px;
+}
+
 /* FOOTER */
 .attribution {
   font-size: 11px;
