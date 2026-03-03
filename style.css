@@ -118,9 +118,15 @@ main {
 
 /* FOOTER */
 .attribution {
-  font-size: 11px;
+  font-size: 0.75rem;
   text-align: center;
+  padding-bottom: 24px;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--grey500);
+  text-decoration-color: var(--blue);
+  text-decoration-thickness: 2px;
+}
+.attribution a:hover {
+  color: var(--blue);
 }
