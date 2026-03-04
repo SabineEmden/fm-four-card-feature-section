@@ -147,6 +147,7 @@ main {
   display: grid;
   grid-template-rows: repeat(4, 1fr);
   gap: 32px;
+  max-width: 70rem;
 }
 
 .card-1 {
@@ -218,6 +219,14 @@ main {
 
   .card-4 {
     grid-area: card-4;
+  }
+}
+
+@media (min-width: 65rem) {
+  .card-wrapper {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: ". card-2 ." "card-1 card-2 card-4" "card-1 card-3 card-4" ". card-3 .";
   }
 }
 
