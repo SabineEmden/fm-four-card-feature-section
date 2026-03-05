@@ -38,7 +38,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor solution](https://your-solution-url.com)
+- [Frontend Mentor solution](https://www.frontendmentor.io/solutions/four-card-feature-section-using-ccs-grid-JA4Lrjarnv)
 - [Live site](https://sabineemden.github.io/fm-four-card-feature-section/)
 
 ## My process
